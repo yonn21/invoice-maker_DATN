@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navigation_invoice"
+        android:icon="@drawable/navigation_invoice_selected"
+        android:title="@string/navigation_invoice" />
+    <item
+        android:id="@+id/navigation_clients"
+        android:icon="@drawable/navigation_clients"
+        android:title="@string/navigation_clients" />
+    <item
+        android:id="@+id/navigation_items"
+        android:icon="@drawable/navigation_items"
+        android:title="@string/navigation_items" />
+</menu>

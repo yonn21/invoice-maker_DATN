@@ -1,0 +1,207 @@
+<resources>
+    <string name="app_name">Invoice Maker</string>
+
+    <string name="empty"></string>
+
+    <!-- navigation -->
+    <string name="navigation_invoice">Invoice</string>
+    <string name="navigation_statistics">Statistics</string>
+    <string name="navigation_add">Add</string>
+    <string name="navigation_clients">Clients</string>
+    <string name="navigation_items">Items</string>
+
+    <!-- business data -->
+    <string name="business_data_title">Your Business Info</string>
+    <string name="business_name_hint">Your Business Name</string>
+    <string name="business_email_hint">Email</string>
+    <string name="business_phone_number_hint">Phone Number</string>
+    <string name="business_address_hint">Address</string>
+    <string name="business_data_save">Save</string>
+
+    <!-- home -->
+    <string name="home_title">Invoice Management</string>
+    <string name="home_button_create_new_invoice">Create New Invoice</string>
+    <string name="home_statistics_title">Total revenue</string>
+    <string name="home_statistics_total_invoice">Total</string>
+    <string name="home_statistics_paid_invoice">Paid</string>
+    <string name="home_statistics_overdue_invoice">Overdue</string>
+    <string name="home_filter_title">Filter</string>
+    <string name="home_filter_reset">Reset</string>
+    <string name="home_filter_year">Year</string>
+    <string name="home_filter_month">Month</string>
+    <string name="home_filter_set">Set</string>
+    <string name="home_total_by_month">Total: </string>
+    <string name="home_filter_empty">No invoice in this month</string>
+    <string name="home_invoice_preview">Preview Invoice</string>
+    <string name="home_invoice_edit">Edit Invoice</string>
+    <string name="home_invoice_share">Share</string>
+    <string name="home_invoice_delete">Delete Invoice</string>
+    <string name="home_cancel">Cancel</string>
+
+    <!-- statistics -->
+    <string name="statistics_title">Statistics</string>
+    <string name="statistics_button_create_new_invoice">Create New Invoice</string>
+
+    <!-- client list -->
+    <string name="client_list_title">Clients</string>
+    <string name="client_list_button_new_client">New Client</string>
+    <string name="client_list_search_client_hint">Search client</string>
+
+    <!--  create client  -->
+    <string name="create_client_title">New Client</string>
+    <string name="create_client_name_field">Client Name *</string>
+    <string name="create_client_name_hint">Client Name</string>
+    <string name="create_client_phone_number_field">Phone Number *</string>
+    <string name="create_client_phone_number_hint">Phone Number</string>
+    <string name="create_client_email_field">Email</string>
+    <string name="create_client_email_hint">Email</string>
+    <string name="create_client_address_field">Address</string>
+    <string name="create_client_address_hint">Address</string>
+    <string name="create_client_done">Done</string>
+    <string name="create_client_back">Back</string>
+
+    <!-- item list -->
+    <string name="item_list_title">Items</string>
+    <string name="item_list_button_new_item">New Item</string>
+    <string name="item_list_search_item_hint">Search item</string>
+
+    <!-- create item -->
+    <string name="create_item_title">New Item</string>
+    <string name="create_item_name_field">Item Name *</string>
+    <string name="create_item_name_hint">Item Name</string>
+    <string name="create_item_description_field">Description</string>
+    <string name="create_item_description_hint">Optional</string>
+    <string name="create_item_unit_type_field">Unit type</string>
+    <string name="create_item_unit_enter_custom">Enter new custom unit</string>
+    <string name="create_item_unit_cost_field">Unit cost *</string>
+    <string name="create_item_unit_cost_hint">$</string>
+    <string name="create_item_stock_field">Stock</string>
+    <string name="create_item_stock_hint">Optional</string>
+    <string name="create_item_photo_field">Photo</string>
+    <string name="create_item_done">Done</string>
+    <string name="create_item_back">Back</string>
+
+    <!-- create invoice -->
+    <string name="create_invoice_title">Invoice</string>
+    <string name="create_invoice_save">Save</string>
+    <string name="create_invoice_client_title">Client Info*</string>
+    <string name="create_invoice_client_hint">Select Client</string>
+    <string name="create_invoice_select_client_title">Select Client</string>
+    <string name="create_invoice_select_client_create_new_client">Create New Client</string>
+    <string name="create_invoice_invoice_details_title">Invoice Details</string>
+    <string name="create_invoice_invoice_number_title">Invoice Number</string>
+    <string name="create_invoice_date_title">Date*</string>
+    <string name="create_invoice_due_date_title">Due Date*</string>
+    <string name="create_invoice_item_title">Item*</string>
+    <string name="create_invoice_add_item_hint">Select Item</string>
+    <string name="create_invoice_select_item_title">Select Item</string>
+    <string name="create_invoice_add">Select</string>
+    <string name="create_invoice_back">Back</string>
+    <string name="create_invoice_select_item_search_hint">Search Item</string>
+    <string name="create_invoice_select_item_create_new_item">Create New Item</string>
+    <string name="create_invoice_subtotal">Subtotal</string>
+    <string name="create_invoice_discount">Discount</string>
+    <string name="create_invoice_shipping">Shipping</string>
+    <string name="create_invoice_tax">Tax</string>
+    <string name="create_invoice_inclusive_tax_title">Inclusive</string>
+    <string name="create_invoice_inclusive_tax">Turn on if prices already include Tax</string>
+    <string name="create_invoice_total">Total</string>
+    <string name="create_invoice_payment">Payment</string>
+    <string name="create_invoice_payment_history_title">Payment History</string>
+    <string name="create_invoice_payment_history_amount">Amount</string>
+    <string name="create_invoice_add_payment_title">Add Payment</string>
+    <string name="create_invoice_add_payment_balance_due">Balance Due:</string>
+    <string name="create_invoice_add_payment_full_paid">Fully Paid</string>
+    <string name="create_invoice_add_payment_payment_title">Payment</string>
+    <string name="create_invoice_add_payment_date_title">Date</string>
+    <string name="create_invoice_add_payment_method_title">Method</string>
+    <string name="create_invoice_balance_due">Balance Due</string>
+    <string name="create_invoice_payment_instruction_title">Payment Instruction</string>
+    <string name="create_invoice_payment_instruction_hint">Select Payment Instruction</string>
+    <string name="create_invoice_add_note_title">Note</string>
+    <string name="create_invoice_add_note_hint">Write some note...</string>
+    <string name="create_invoice_signature_title">Signature</string>
+    <string name="create_invoice_seller_signature_title">Seller Signature</string>
+    <string name="create_invoice_buyer_signature_title">Buyer Signature</string>
+    <string name="create_invoice_share_button">Share</string>
+    <string name="create_invoice_preview_button">Preview</string>
+    <string name="create_invoice_mark_paid_button">Mark Paid</string>
+    <string name="create_invoice_selected_item_is_removed">This item has been deleted</string>
+    <!-- create invoice example -->
+    <string name="create_invoice_business_name_example">Soosky LLC</string>
+    <string name="create_invoice_business_email_example">phuongyon@soosky.co</string>
+    <string name="create_invoice_seller_signature_name_example">Seller Name</string>
+    <string name="create_invoice_buyer_signature_name_example">Buyer Name</string>
+
+    <!-- payment instruction -->
+    <string name="payment_instruction_list_title">Payment Instruction</string>
+    <string name="payment_instruction_create_payable_to_title">Payable To</string>
+    <string name="payment_instruction_create_title">Create New Payment</string>
+    <string name="payment_instruction_create_type_title">Type</string>
+    <string name="payment_instruction_create_payment_detail_title">Payment Detail</string>
+
+    <!-- settings -->
+    <string name="setting_title">Settings</string>
+    <string name="setting_profile_information_title">Profile Information</string>
+    <string name="setting_business_profile_title">Business Profile</string>
+    <string name="setting_payment_instruction_title">Payment Instruction</string>
+    <string name="setting_currency_title">Currency</string>
+    <string name="setting_edit_currency_format_title">Edit Currency Format</string>
+    <string name="setting_date_format_title">Date Format</string>
+    <string name="setting_user_setting_title">User Setting</string>
+    <string name="setting_rate_app_title">Rate App</string>
+    <string name="setting_feedback_title">Feedback</string>
+    <string name="setting_privacy_policy_title">Privacy Policy</string>
+    <string name="setting_terms_of_use_title">Terms of Use</string>
+    <string name="setting_more_apps_title">More Apps</string>
+
+    <!-- settings dialog -->
+    <string name="select_currency_title">Select Currency</string>
+    <string name="select_currency_close">Close</string>
+    <string name="select_date_format_title">Choose one date format</string>
+    <string name="currency_format_title">Currency Format</string>
+
+    <string name="text_privacy_policy" translatable="false"><u>Privacy Policy</u></string>
+    <string name="text_term" translatable="false"><u>Terms Of Use</u></string>
+
+    <!-- ads & subscription -->
+    <string name="sub_text_des" translatable="false">
+• The price of weekly subscription is $5.99 and yearly subscription is $49.99\n\n
+• One you confirm the purchase, your payment will be charged to your iTunes Account.\n\n
+• Your subscription automatically renews unless auto-renew is turned off at least 24-hours before the end of the current period.\n\n
+• Your account will be charged for renewal within 24-hours prior to the end of the current period.\n\n
+• Subscription maybe managed by the user and auto-renewal maybe turned off by going to the user’s account setting after purchasing.</string>
+    <string name="text_restore" translatable="false"><b>Restore</b></string>
+    <string name="license_key" translatable="false">MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAu+cXY1hb9RAO1TMjfrEOOr9ZJ74l+xoIpZOCiKnKKP/x6eBaUA5h7gXHLXUkLlsXSHGk7+GJP+g+t2gvhweNdbj2lh0E0eLKY2y65YiU3GmJygROSRFEPzHSyqio4JWEWoHBXZ6JxMGSSq1CMH5MkR94sshtHLwNtM/t5DLQEwY4HmBVLBOpZhTbgwJiw6zn8YQdSbmNlEyNyzQTHlpsvEHV03maxt3azf09szyQDMdZWKtM8tF+8Dv4ktQf7Ry+b4Lyy4RuzKp6xpfUyaCDRS/9uPVsH5xOcL2XZVKMNEe4Ea2utKSgG4Bng8y31fz9Fl3Ec8MveDFzoFbY0arIuwIDAQAB</string>
+
+
+
+    <!-- -
+    This is an ad unit ID for an interstitial test ad. Replace with your own interstitial ad unit id.
+    For more information, see https://support.google.com/admob/answer/3052638
+<!- -->
+    <!--    AD Test-->
+    <string name="banner_ad_unit_id" translatable="false">ca-app-pub-3940256099942544/9214589741</string>
+    <string name="interstitial_ad_unit_id" translatable="false">ca-app-pub-3940256099942544/1033173712</string>
+    <string name="reward_interstitial_ad_unit_id" translatable="false">ca-app-pub-3940256099942544/5354046379</string>
+    <string-array name="reward_ad_unit_id">
+        <item>ca-app-pub-3940256099942544/5224354917</item>
+        <item>ca-app-pub-3940256099942544/5224354917</item>
+        <item>ca-app-pub-3940256099942544/5224354917</item>
+        <item>ca-app-pub-3940256099942544/5224354917</item>
+        <item>ca-app-pub-3940256099942544/5224354917</item>
+    </string-array>
+
+    <string name="native_ad_unit_id" translatable="false">ca-app-pub-3940256099942544/2247696110</string>
+    <string-array name="open_ad_unit_id">
+        <item>ca-app-pub-3940256099942544/9257395921</item>
+        <item>ca-app-pub-3940256099942544/9257395921</item>
+        <item>ca-app-pub-3940256099942544/9257395921</item>
+    </string-array>
+    <string name="app_ad_id" translatable="false">ca-app-pub-3940256099942544~3347511713</string>
+
+    <string name="dialog_default_title" translatable="false">Here\'s a message!</string>
+    <string name="dialog_ok" translatable="false">OK</string>
+    <string name="dialog_cancel" translatable="false">Cancel</string>
+    <string name="LOADING" translatable="false">Loading...</string>
+</resources>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/action_preview_pdf"
+        android:fontFamily="@font/sf_pro_text_regular"
+        android:title="Preview" />
+    <item
+        android:id="@+id/action_edit"
+        android:fontFamily="@font/sf_pro_text_regular"
+        android:title="Edit" />
+    <item
+        android:id="@+id/action_share"
+        android:fontFamily="@font/sf_pro_text_regular"
+        android:title="Share" />
+    <item
+        android:id="@+id/action_remove"
+        android:fontFamily="@font/sf_pro_text_regular"
+        android:title="Remove" />
+</menu>
